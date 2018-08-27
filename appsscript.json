@@ -1,0 +1,24 @@
+{
+  "timeZone": "Asia/Dubai",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/drive",
+    "https://www.googleapis.com/auth/bigquery",
+    "https://www.googleapis.com/auth/spreadsheets"
+  ],
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "Drive",
+      "serviceId": "drive",
+      "version": "v3"
+    }, {
+      "userSymbol": "BigQuery",
+      "serviceId": "bigquery",
+      "version": "v2"
+    }]
+  },
+  "webapp": {
+    "access": "MYSELF",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER"
+}
