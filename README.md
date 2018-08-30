@@ -18,6 +18,8 @@ Query](https://cloud.google.com/bigquery/).
 
 ### How it works
 
+![how it works diagram](https://storage.googleapis.com/ff_assets/FlightsFeed.jpg)
+
 1.  Apps Script picks up statically defined data (in Google Sheets) around
     enabled airline routes, country and city translations, landing page URLs
     etc.. and copies that data into BQ tables.
