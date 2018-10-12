@@ -18,9 +18,8 @@ var scriptProperties = PropertiesService.getScriptProperties();
 
 var CONFIG = {
   cloudProjectID: scriptProperties.getProperty('cloudProjectID'),
-  bqDatasetID: scriptProperties.getProperty('bqDatasetID_test'),
-  sheetUrl: scriptProperties.getProperty('testUrl'),
-  cloudStorageDest: scriptProperties.getProperty('cloudStorageDest_test'),
+  bqDatasetID: scriptProperties.getProperty('bqDatasetID'),
+  cloudStorageDest: scriptProperties.getProperty('cloudStorageDest'),
   baseSchema: [
     {
       id: 'Routes',
